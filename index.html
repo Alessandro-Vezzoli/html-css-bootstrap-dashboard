@@ -12,6 +12,11 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link href="./css/style.css" />
   </head>
   <body>
     <nav class="navbar bg-dark navbar-expand-lg">
@@ -46,5 +51,230 @@
         </div>
       </div>
     </nav>
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center pt-4">
+        <h3>Catalogo Libri</h3>
+        <button class="btn btn-primary">Aggiungi Libro</button>
+      </div>
+    </div>
+    <!--TABLE-->
+    <div class="container pt-5">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col-6">Titolo</th>
+            <th scope="col-2">Data prestito</th>
+            <th scope="col-2">Stato</th>
+            <th scope="col-2">Azioni</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-secondary">
+            <td>I pilastri della terra</td>
+            <td>-</td>
+            <td>
+              <button type="button" class="btn btn-success btn-sm">
+                Disponibile
+              </button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> edit </span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>I promessi sposi</td>
+            <td>-</td>
+            <td>
+              <button type="button" class="btn btn-success btn-sm">
+                Disponibile
+              </button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> edit </span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </td>
+          </tr>
+          <tr class="table-secondary">
+            <td>Il signore degli anelli</td>
+            <td>18/10/2023</td>
+            <td>
+              <button type="button" class="btn btn-warning btn-sm">
+                In prestito
+              </button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> edit </span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>Harry Potter e la pietra filosofale</td>
+            <td>-</td>
+            <td>
+              <button type="button" class="btn btn-success btn-sm">
+                Disponibile
+              </button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> edit </span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </td>
+          </tr>
+          <tr class="table-secondary">
+            <td>Il codice Da Vinci</td>
+            <td>-</td>
+            <td>
+              <button type="button" class="btn btn-danger btn-sm">
+                Non disponibile
+              </button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> edit </span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>Shining</td>
+            <td>-</td>
+            <td>
+              <button type="button" class="btn btn-success btn-sm">
+                Disponibile
+              </button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> edit </span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </td>
+          </tr>
+          <tr class="table-secondary">
+            <td>La divina commedia</td>
+            <td>21/09/2023</td>
+            <td>
+              <button type="button" class="btn btn-warning btn-sm">
+                In prestito
+              </button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> edit </span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>Il trono di spade</td>
+            <td>-</td>
+            <td>
+              <button type="button" class="btn btn-success btn-sm">
+                Disponibile
+              </button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> edit </span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </td>
+          </tr>
+          <tr class="table-secondary">
+            <td>Il mondo di Sofia</td>
+            <td>-</td>
+            <td>
+              <button type="button" class="btn btn-danger btn-sm">
+                Non disponibile
+              </button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> edit </span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>Le cronache di Narnia: il leone, la strega e l'armadio</td>
+            <td>25/07/2023</td>
+            <td>
+              <button type="button" class="btn btn-warning btn-sm">
+                In prestito
+              </button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> edit </span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </td>
+          </tr>
+          <tr class="table-secondary">
+            <td>Il piccolo principe</td>
+            <td>-</td>
+            <td>
+              <button type="button" class="btn btn-success btn-sm">
+                Disponibile
+              </button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> edit </span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>La storia infinita</td>
+            <td>-</td>
+            <td>
+              <button type="button" class="btn btn-success btn-sm">
+                Disponibile
+              </button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> edit </span>
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
